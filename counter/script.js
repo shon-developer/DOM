@@ -1,5 +1,8 @@
+let fullName = document.querySelector("#fullName");
 let counter = document.querySelector("#counter");
 let developer = document.querySelector("#developer");
+
+fullName.innerHTML = "Shon Latheef";
 
 let count = 1;
 

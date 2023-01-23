@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
+    <title>DOM Liveclass1</title>
   </head>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #111111;
+      color: azure;
+    }
+  </style>
   <body>
-    <h1 id="fullName">Shon</h1>
-    <h2 id="counter" class="counter">1000</h2>
-    <p id="developer" class="developer">Web Developer</p>
-    <script src="./script.js"></script>
+    <h1>Hello Javascript</h1>
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>JS</p>
+    <script>
+      let value = document.querySelector("p").innerHTML;
+      console.log(value);
+    </script>
   </body>
 </html>
